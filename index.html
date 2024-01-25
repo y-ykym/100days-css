@@ -10,62 +10,6 @@
 </head>
 
 <body>
-
-
-<div class="mv">
-  <div class="inner-block">
-    <p class="txt">
-      タイトルタイトル<br>タイトルタイトル
-    </p>
-  </div>
-</div>
- 
-<style>
-.inner-block {
-  position: relative;
-  width: 1040px;
-  padding: 0 30px;
-  margin: 0 auto;
-  height: 100%;
-}
-.mv {
-  height: 800px;
-  background-color: #d4d4d4;
-  position: relative;
-  z-index: 1;
-}
-.mv .txt {
-  font-size: 45px;
-  font-weight: bold;
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-.mv::before {
-  position: absolute;
-  content: "";
-  width: calc(50% - 150px);
-  height: 100%;
-  left: 0;
-  top: 0;
-  background-color: #79ccdb;
-  z-index: -1;
-}
-.mv::after {
-  position: absolute;
-  content: "";
-  width: 300px;
-  height: 100%;
-  background-color: #79ccdb;
-  left: calc(50% - 300px);
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  transform: skewX(-20deg);
-  z-index: -1;
-}
-</style>
-
   <script src="./index.js"></script>
 </body>
 
